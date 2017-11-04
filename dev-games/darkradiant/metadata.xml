@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription lang="en">
+		Overhauled version orginally based on GtkRadiant designed for use
+		with The Dark Mod, a Thief-inspired modification of the Domm 3 game
+		engine.
+	</longdescription>
+	<use>
+		<flag name="darkmod-plugins">Include darkmod plugins</flag>
+	</use>
+</pkgmetadata>
