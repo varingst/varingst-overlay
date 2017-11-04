@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<repositories version="1.0">
+  <repo priority="50" status="unofficial">
+    <name>varingst</name>
+    <description>Custom Gentoo Overlay</description>
+    <homepage>https://github.com/varingst/varingst-overlay</homepage>
+    <owner>
+      <email>oj@varing.st</email>
+    </owner>
+    <source type="git">git://github.com/varingst/varingst-overlay.git</source>
+    <feed>https://github.com/varingst/varingst-overlay/commits/master.atom</feed>
+  </repo>
+</repositories>
