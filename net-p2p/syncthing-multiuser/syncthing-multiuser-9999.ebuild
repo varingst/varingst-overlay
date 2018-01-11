@@ -6,7 +6,7 @@ inherit git-r3
 
 DESCRIPTION="OpenRC script for running syncthing with multiple users"
 HOMEPAGE="https://github.com/varingst/syncthing-multiuser"
-EGIT_REPO_URI="https://github.com/varingst/syncthing/multiuser.git"
+EGIT_REPO_URI="https://github.com/varingst/syncthing-multiuser.git"
 
 LICENSE="MIT"
 SLOT="0"
