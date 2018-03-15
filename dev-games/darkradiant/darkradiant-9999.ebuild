@@ -4,6 +4,7 @@
 
 EAPI="5"
 PYTHON_COMPAT=( python2_7 )
+
 inherit eutils git-r3 python-single-r1 autotools
 
 DESCRIPTION="An open-source level editor for Doom 3 and The Dark Mod"
@@ -33,6 +34,11 @@ RDEPEND="$DEPEND"
 
 
 src_prepare() {
+	sed -i -e '/plugins\/eclasstree\/Makefile/d' \
+		   -e '/plugins\/entitylist\/Makefile/d' \
+		   -e '/plugins\/undo\/Makefile/d' \
+		   configure.ac
+
 	eaclocal -I m4
 	_elibtoolize --force --copy
 	eautoheader
